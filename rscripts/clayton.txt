@@ -1,0 +1,8 @@
+generator and derivatives
+  t0 = pow(t*theta_Var+1.0,-1.0/theta_Var);
+  t0 = -pow(t*theta_Var+1.0,-1.0/theta_Var-1.0);
+  t0 = theta_Var*(1.0/theta_Var+1.0)*pow(t*theta_Var+1.0,-1.0/theta_Var-2.0);
+  t0 = -(theta_Var*theta_Var)*(1.0/theta_Var+1.0)*(1.0/theta_Var+2.0)*pow(t*theta_Var+1.0,-1.0/theta_Var-3.0);
+  t0 = (theta_Var*theta_Var*theta_Var)*(1.0/theta_Var+1.0)*(1.0/theta_Var+2.0)*(1.0/theta_Var+3.0)*pow(t*theta_Var+1.0,-1.0/theta_Var-4.0);
+inverse generator 
+  t0 = (pow(t,-theta_Var)-1.0)/theta_Var;

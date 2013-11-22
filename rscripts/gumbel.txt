@@ -1,0 +1,8 @@
+generator and derivatives
+  t0 = exp(-pow(t,1.0/theta_Var));
+  t0 = -(pow(t,1.0/theta_Var-1.0)*exp(-pow(t,1.0/theta_Var)))/theta_Var;
+  t0 = pow(t,2.0/theta_Var-2.0)*1.0/(theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))-(pow(t,1.0/theta_Var-2.0)*exp(-pow(t,1.0/theta_Var))*(1.0/theta_Var-1.0))/theta_Var;
+  t0 = -pow(t,1.0/theta_Var-1.0)*pow(t,2.0/theta_Var-2.0)*1.0/(theta_Var*theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))+pow(t,2.0/theta_Var-3.0)*1.0/(theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*(2.0/theta_Var-2.0)-(pow(t,1.0/theta_Var-3.0)*exp(-pow(t,1.0/theta_Var))*(1.0/theta_Var-1.0)*(1.0/theta_Var-2.0))/theta_Var+pow(t,1.0/theta_Var-1.0)*pow(t,1.0/theta_Var-2.0)*1.0/(theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*(1.0/theta_Var-1.0);
+  t0 = pow(t,4.0/theta_Var-4.0)*1.0/(theta_Var*theta_Var*theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))+pow(t,2.0/theta_Var-4.0)*1.0/(theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*pow(1.0/theta_Var-1.0,2.0)+pow(t,2.0/theta_Var-4.0)*1.0/(theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*(2.0/theta_Var-2.0)*(2.0/theta_Var-3.0)-pow(t,1.0/theta_Var-2.0)*pow(t,2.0/theta_Var-2.0)*1.0/(theta_Var*theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*(1.0/theta_Var-1.0)*2.0-pow(t,1.0/theta_Var-1.0)*pow(t,2.0/theta_Var-3.0)*1.0/(theta_Var*theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*(2.0/theta_Var-2.0)*2.0+pow(t,1.0/theta_Var-1.0)*pow(t,1.0/theta_Var-3.0)*1.0/(theta_Var*theta_Var)*exp(-pow(t,1.0/theta_Var))*(1.0/theta_Var-1.0)*(1.0/theta_Var-2.0)*2.0-(pow(t,1.0/theta_Var-4.0)*exp(-pow(t,1.0/theta_Var))*(1.0/theta_Var-1.0)*(1.0/theta_Var-2.0)*(1.0/theta_Var-3.0))/theta_Var;
+inverse generator 
+  t0 = pow(-log(t),theta_Var);
