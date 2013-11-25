@@ -130,6 +130,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//drwnTestCases::testModelLimitations<normalCumulativeNet>();
 	
+
 	//commandLine(argc, argv);
 
 	//drwnCumulativeDebug::pressAnyKey();
